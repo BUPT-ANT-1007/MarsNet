@@ -1,1 +1,2 @@
 # MarsNet
+MarsNet combines Transformers and U-Net to detect rocks on Mars for Zhurong Rover. On one hand, the Transformers encodes global context which lacks in the convolution neural network (CNN) features. On the other hand, the detailed high-resolution spatial information from CNN features enables precise localization. Hybrid dilated convolution (HDC) is also added into MarsNet to enlarge the receptive fields of the network. Larger receptive fields assist to detect huge rocks.
